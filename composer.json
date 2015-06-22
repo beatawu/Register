@@ -1,0 +1,28 @@
+{
+  "name": "beatawu/Register",
+  "type": "library",
+  "license": "MIT",
+  "description": "",
+  "keywords": ["register", "php"],
+  "homepage": "https://github.com/beatawu/Register",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Beata Wojtaszuk",
+      "email": "beata.wojtaszuk@gmail.com",
+      "homepage": "https://github.com/beatawu",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+  },
+  "require-dev": {
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Register\\": "src/"
+    }
+  }
+}
